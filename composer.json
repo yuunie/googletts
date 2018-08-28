@@ -1,0 +1,19 @@
+{
+    "name": "yuunie/googletts",
+    "description": "一个获取Google翻译TTS的包,输入需要的文字获得语音链接",
+    "type": "library",
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "php": ">=5.4"
+    },
+    "license": "none",
+    "authors": [
+        {
+            "name": "YuJunjie",
+            "email": "1591216902@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
