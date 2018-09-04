@@ -1,6 +1,7 @@
 # googletts
 获取Google翻译TTS链接
-
+---
+Composer require yuunie/googletts dev-master
 ---
 namespace Yuunie;
 
