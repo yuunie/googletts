@@ -9,19 +9,7 @@ class GoogleTTS
 	 */
     public static function getTkk()
     {
-        $url = "https://translate.google.cn/";
-        $html = file_get_contents($url);
-
-        $x = "#TKK\=eval\('\(\(function\(\)\{var\s+a\\\\x3d(-?\d+);var\s+b\\\\x3d(-?\d+);return\s+(\d+)\+#isU";
-
-        if (preg_match($x, $html, $arr))
-        {
-            $tkk = $arr[3] .'.'.($arr[1] + $arr[2]) ;
-            return $tkk ;
-
-        } else {
-            return '426465.1673265149';
-        }
+        return '426465.1673265149';
     }
 
     /**
