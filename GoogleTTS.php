@@ -73,7 +73,7 @@ class GoogleTTS
     {
         $textlen = mb_strlen($text);
         $ttsspeed = intval($ttsspeed);
-        if ($ttsspeed == '2') {
+        if ($ttsspeed > 1 || $ttsspeed < 0) {
             $ttsspeed = rand(0, 1);
         }
         $tk = self::getTk($text, self::getTkk());
