@@ -72,7 +72,6 @@ class GoogleTTS
     public static function getUrl($text='',$ttsspeed = '2', $tl = 'zh-CN')
     {
         $textlen = mb_strlen($text);
-        $ttsspeed = intval($ttsspeed);
         if ($ttsspeed > 1 || $ttsspeed < 0) {
             $ttsspeed = rand(0, 1);
         }
