@@ -3,7 +3,7 @@
 
 ---
 
-### Composer require yuunie/googletts dev-master
+### Composer require yuunie/googletts
 
 ---
 
